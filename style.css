@@ -14,10 +14,11 @@ body {
   height: 100vh;
 }
 
+
 .player0 {
   width: 450px;
   height: 500px;
-  background-color: #e5ecf4;
+  background-color: #b0c4de;
   text-align: center;
   position: relative;
 }
@@ -27,6 +28,9 @@ body {
   background-color: #b0c4de;
   position: relative;
   text-align: center;
+}
+.player-active{
+  background-color:#e5ecf4  ;
 }
 .current-score {
   position: absolute;
@@ -60,16 +64,16 @@ p {
 .hold-score {
   bottom: 28%;
 }
-.roll-dice{
-    top: 57%;
-     width: 160px;
-     height: 45px;
+.roll-dice {
+  top: 57%;
+  width: 160px;
+  height: 45px;
 }
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
-img{
-width: 70px;
-position: absolute;
-top: 40%;
+img {
+  width: 70px;
+  position: absolute;
+  top: 40%;
 }
