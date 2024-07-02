@@ -77,3 +77,13 @@ img {
   position: absolute;
   top: 40%;
 }
+.winner{
+  background-color: #9df9ef;
+  color:#ff1d58 ;
+}
+.winmsg{
+  position: absolute;
+  top: 40%;
+  color: #0049b7;
+  font-size: 45px;
+}
