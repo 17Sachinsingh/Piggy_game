@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arsenal SC", sans-serif;
+  background-color: #8493a6;
+}
+.gamediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player0 {
+  width: 450px;
+  height: 500px;
+  background-color: #e5ecf4;
+  text-align: center;
+  position: relative;
+}
+.player1 {
+  width: 450px;
+  height: 500px;
+  background-color: #b0c4de;
+  position: relative;
+  text-align: center;
+}
+.current-score {
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+  background-color: #deb0c4;
+  height: 100px;
+  width: 180px;
+  padding: 15px;
+}
+h1 {
+  margin: 30px;
+  font-size: 45px;
+}
+h3,
+p {
+  font-size: 25px;
+}
+.button {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #deb0c4;
+}
+.new-game {
+  top: 20%;
+}
+.hold-score {
+  bottom: 28%;
+}
+.roll-dice{
+    top: 57%;
+     width: 160px;
+     height: 45px;
+}
+.hidden{
+    display: none;
+}
+img{
+width: 70px;
+position: absolute;
+top: 40%;
+}
